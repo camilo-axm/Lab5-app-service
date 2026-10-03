@@ -90,3 +90,5 @@ describe('construirReporte', () => {
     expect(() => construirReporte('Al', [4])).toThrow(/al menos 3 caracteres/);
   });
 });
+
+test('Prueba fallida intencionalmente para Pregunta 9', () => { expect(1).toBe(2); });
